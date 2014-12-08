@@ -1,0 +1,1 @@
+{"filter":false,"title":"jquery.js","tooltip":"/app/assets/javascripts/jquery.js","ace":{},"undoManager":{"mark":0,"position":-1,"stack":[]},"timestamp":1417443049271,"hash":"c4420d71e508660ea92df6d8261f379f61a8b629"}
