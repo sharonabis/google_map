@@ -1,3 +1,6 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
 body, html {
   height: 100%;
   width: 100%;
@@ -31,11 +34,10 @@ body, html {
 .navbar {
 	margin-bottom:0; 
 	background-color: #F7F7F7;
+a {
+	    color: #888;
+    }
 }
-.navbar a {
-	color: #888;
-}
-
 .nav-left {
     margin:50px auto 0 auto;
     background: #F7F7F7;

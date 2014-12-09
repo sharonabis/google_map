@@ -35,14 +35,15 @@ function initialize() {
 
     if ($(this).attr('src') === "images/plus.png") { 
             $(this).attr("src", "images/minus.png"); 
-            $(".map-wrap").css({"width":"80%"});
-             markerd.setMap(map);
+            $( ".map-wrap" ).animate({ width: '100%' }, 610 );
+              markerd.setMap(null);
       
     }
     else { 
             $(this).attr("src", "images/plus.png");
-            $( ".map-wrap" ).animate({ width: '100%' }, 610 );
-             markerd.setMap(null);
+            $(".map-wrap").css({"width":"80%"});
+             markerd.setMap(map);
+   
         };
     });
     
